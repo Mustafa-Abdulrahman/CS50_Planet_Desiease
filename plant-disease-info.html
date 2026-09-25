@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plant Disease Guide | LeafLens AI</title>
+  <meta name="description" content="General information about plant disease, symptoms, causes, prevention, and how AI helps growers detect problems early." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Manrope:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="index.html#hero" class="brand" aria-label="LeafLens AI — home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="26" height="26" fill="none"><path d="M24 7c-9 0-15 5-15 12 0 4 2.5 7 7.5 7C24 26 26.5 18 24 7zM9 25c2.5-7.5 7.5-11.5 12.5-14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-name">LeafLens <em>AI</em></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Primary">
+        <a href="index.html#how">How It Works</a>
+        <a href="index.html#features">Features</a>
+        <a href="index.html#showcase">Showcase</a>
+        <a href="plant-disease-info.html" aria-current="page">Plant Disease Guide</a>
+        <a href="index.html#benefits">Benefits</a>
+        <a href="index.html#cta" class="btn btn-primary btn-sm nav-cta">Analyze a Plant</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language to Arabic">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3z" stroke="currentColor" stroke-width="1.8"/></svg>
+          <span id="langLabel">عربي</span>
+        </button>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-inner">
+        <div class="page-hero-copy reveal">
+          <p class="hero-badge">
+            <span class="dot" aria-hidden="true"></span>
+            <span>General Plant Disease Information</span>
+          </p>
+          <h1>Understanding plant disease and how to stop it early</h1>
+          <p class="hero-sub">Plant diseases reduce yield, weaken crop health, and spread quickly when conditions stay warm, humid, or poorly managed. Early detection and prevention are the best tools for protecting a growing season.</p>
+          <div class="hero-actions">
+            <a href="index.html#cta" class="btn btn-primary">Start Free Analysis</a>
+            <a href="#symptoms" class="btn btn-ghost">Learn Symptoms</a>
+          </div>
+        </div>
+
+        <div class="page-hero-visual reveal">
+          <div class="hero-frame">
+            <img src="assets/img/hero-scan.jpg" alt="Healthy green plant leaf with AI disease detection overlay" width="1536" height="1024" />
+            <div class="scan-line" aria-hidden="true"></div>
+          </div>
+          <div class="diag-card" role="status">
+            <div class="diag-head">
+              <span class="diag-title">Disease Risk</span>
+              <span class="diag-conf">Early Warning</span>
+            </div>
+            <p class="diag-name">Fungal Pressure</p>
+            <p class="diag-latin">Warm, wet weather · high spread risk</p>
+            <div class="diag-bar" role="img" aria-label="Disease risk gauge at 83 percent">
+              <span style="--w: 83%"></span>
+            </div>
+            <p class="diag-note"><span class="dot dot-amber" aria-hidden="true"></span>Monitor leaf surfaces</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="overview">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Why it matters</p>
+          <h2>Plant disease is a crop, quality, and profit problem</h2>
+        </div>
+
+        <div class="info-grid reveal">
+          <article class="info-card">
+            <h3>What causes it</h3>
+            <p>Plant diseases are usually caused by fungi, bacteria, viruses, or environmental stress. They spread through water, wind, infected plants, contaminated tools, or poor sanitation.</p>
+            <ul>
+              <li>High humidity and dense canopy</li>
+              <li>Warm temperatures with leaf wetness</li>
+              <li>Infected crop residue or neighboring plants</li>
+            </ul>
+          </article>
+
+          <article class="info-card">
+            <h3>Common symptoms</h3>
+            <p>Symptoms vary by disease, but many show visible changes in leaves, stems, fruit, or roots before a full outbreak develops.</p>
+            <ul>
+              <li>Yellowing or chlorosis</li>
+              <li>Brown spots, lesions, or blight</li>
+              <li>Wilting, curling, or stunted growth</li>
+            </ul>
+          </article>
+
+          <article class="info-card">
+            <h3>Why early action helps</h3>
+            <p>When disease is caught early, treatment tends to be more effective, cheaper, and less disruptive to the rest of the crop.</p>
+            <ul>
+              <li>Lower chemical use</li>
+              <li>Less spread across the field</li>
+              <li>Better harvest quality and yield</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="symptoms">
+      <div class="container split-layout">
+        <div class="info-panel reveal">
+          <p class="eyebrow">Symptoms to watch</p>
+          <h2>Look for changes that appear before the whole crop is affected</h2>
+          <ul class="check-list">
+            <li>Leaf spots that expand into irregular circular or target-like patterns.</li>
+            <li>Yellow halos around lesions or a general loss of green color.</li>
+            <li>Powdery growth, rust pustules, dark margins, or sticky residue.</li>
+            <li>Wilting or distortion in young leaves, stems, or fruit clusters.</li>
+          </ul>
+          <div class="mini-stats">
+            <div>
+              <strong>42</strong>
+              <span>Crops</span>
+            </div>
+            <div>
+              <strong>98.7%</strong>
+              <span>Accuracy</span>
+            </div>
+            <div>
+              <strong>&lt;5s</strong>
+              <span>Diagnosis</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="info-panel info-panel-solid reveal">
+          <p class="eyebrow eyebrow-light">Best prevention practices</p>
+          <h3>Healthy plants are harder to infect</h3>
+          <ul class="check-list">
+            <li>Rotate crops to interrupt disease cycles and reduce pathogen buildup.</li>
+            <li>Water at the base of the plant rather than overhead where possible.</li>
+            <li>Remove infected leaves, fruit, or weeds before they spread spores.</li>
+            <li>Keep airflow strong through pruning and spacing to reduce humidity.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="types">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Common disease types</p>
+          <h2>Most crop problems fall into a few major groups</h2>
+        </div>
+
+        <div class="disease-cards reveal">
+          <article class="feature disease-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-4.3 0-8 3.4-8 7.8C4 15.2 7.1 20 12 21c4.9-1 8-5.8 8-10.2C20 6.4 16.3 3 12 3z"/><path d="M12 8v4M12 17h.01"/></svg>
+            </div>
+            <h3>Fungal</h3>
+            <p>Leaf spots, rust, mildew, and blight often thrive in wet, crowded conditions.</p>
+          </article>
+
+          <article class="feature disease-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18M12 3v18"/><circle cx="12" cy="12" r="7"/></svg>
+            </div>
+            <h3>Bacterial</h3>
+            <p>These diseases typically cause water-soaked spots, soft rot, and rapid weak tissue collapse.</p>
+          </article>
+
+          <article class="feature disease-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18c3-1.5 6-1.5 9 0s6 1.5 9 0V6c-3 1.5-6 1.5-9 0s-6-1.5-9 0v12z"/><path d="M3 12c3-1.5 6-1.5 9 0s6 1.5 9 0"/></svg>
+            </div>
+            <h3>Viral</h3>
+            <p>Viruses often cause mosaic patterns, puckering, stunting, and distorted leaf growth.</p>
+          </article>
+
+          <article class="feature disease-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="5"/></svg>
+            </div>
+            <h3>Abiotic stress</h3>
+            <p>Not all damage is infectious; nutrient imbalance, drought, and heat stress can mimic disease.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section stats-band" id="process">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow eyebrow-light">Healthy response</p>
+          <h2>Act in a simple, repeatable order</h2>
+        </div>
+
+        <div class="timeline reveal">
+          <article class="timeline-item">
+            <span>1</span>
+            <div>
+              <h3>Inspect the crop</h3>
+              <p>Begin with the oldest leaves and the parts closest to the canopy. Check for shape, color, lesion pattern, and pest damage.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span>2</span>
+            <div>
+              <h3>Capture evidence</h3>
+              <p>Photograph the problem area from multiple angles. A clear image helps confirm whether it is a disease, nutrient stress, or environmental issue.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span>3</span>
+            <div>
+              <h3>Diagnose and act</h3>
+              <p>Use a trusted diagnosis tool or agronomic advice to identify the likely cause and choose the least disruptive treatment plan.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta" id="cta">
+      <div class="container">
+        <div class="cta-card reveal">
+          <div class="cta-glow" aria-hidden="true"></div>
+          <h2>Protect your crop before disease spreads</h2>
+          <p>One photo can reveal whether a problem is developing early or just looks like normal stress. Catch it sooner, reduce losses, and respond with confidence.</p>
+          <a href="index.html#hero" class="btn btn-light">Analyze a Plant</a>
+          <p class="cta-note">Free analysis · quick diagnosis · clear prevention guidance</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html#hero" class="brand" aria-label="LeafLens AI — home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" width="26" height="26" fill="none"><path d="M24 7c-9 0-15 5-15 12 0 4 2.5 7 7.5 7C24 26 26.5 18 24 7zM9 25c2.5-7.5 7.5-11.5 12.5-14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+          </span>
+          <span class="brand-name">LeafLens <em>AI</em></span>
+        </a>
+        <p>AI-powered plant disease information and diagnostics that help growers catch problems earlier and respond with clearer treatment guidance.</p>
+      </div>
+
+      <nav class="footer-col" aria-label="Product">
+        <h3>Product</h3>
+        <a href="index.html#how">How It Works</a>
+        <a href="index.html#features">Features</a>
+        <a href="index.html#showcase">Showcase</a>
+      </nav>
+
+      <nav class="footer-col" aria-label="Resources">
+        <h3>Resources</h3>
+        <a href="plant-disease-info.html">Plant disease guide</a>
+        <a href="index.html#benefits">Accuracy report</a>
+        <a href="index.html#cta">Request a demo</a>
+      </nav>
+
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <a href="mailto:hello@leaflens.ai">hello@leaflens.ai</a>
+        <a href="index.html#cta">Analyze a plant</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> LeafLens AI. All rights reserved.</p>
+      <p class="footer-note">Demo page — content is for educational use.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
